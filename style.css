@@ -1,0 +1,79 @@
+* {
+	font-family: 'Helvetica';
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Unica One';
+	font-size: 70px;
+}
+
+img {
+	margin-top: 20px;
+	max-width: 500px
+}
+
+input {
+	text-align: left;
+}
+
+#firstLabel {
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+#riddleAnswer {
+	text-align: center;
+	width: 40px;
+}
+
+#button {
+	padding: 12px 12px 12px 12px;
+	background-color: #8ae6be;
+	color: #734911;
+	border: none;
+	font-size: 14px;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+#button:hover {
+	background-color: #56c092;
+	color: #734911;
+	cursor: pointer;
+}
+
+#content {
+	width: 70%;
+	margin: auto;
+	background-color: #fff;
+	padding: 10px 5px 0 10px;
+	color: #734911;
+}
+
+#header {
+	margin: auto;
+	background-color: #9a6b2e;
+	padding: 10px 20px 10px 20px;
+	/*color: #C09256;*/
+	color: #E6BE8A;
+	color: #8ae6be;
+	/*color: #56c092;*/
+}
+
+#feedback {
+	margin-top: 10px;
+	font-family: 'Comfortaa';
+}
+
+.riddleFail {
+    color: red;
+}
+
+.inputFail {
+    border: 1px solid salmon;
+}
+
+.section {
+	padding: 20px 0 20px 0;
+}
