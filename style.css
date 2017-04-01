@@ -10,7 +10,7 @@ h1 {
 
 img {
 	margin-top: 20px;
-	max-width: 500px
+	max-width: 400px
 }
 
 input {
@@ -28,17 +28,20 @@ input {
 }
 
 #button {
-	padding: 12px 12px 12px 12px;
+	padding: 7px 7px 7px 7px;
 	background-color: #8ae6be;
 	color: #734911;
 	border: none;
 	font-size: 14px;
 	margin-top: 10px;
+	margin-left: 5px;
 	border-radius: 3px;
 }
 
 #button:hover {
-	background-color: #56c092;
+	/*background-color: #56c092;
+	background-color: #8aefae;*/
+	background: linear-gradient(90deg, #8aef88, #8ae6be);
 	color: #734911;
 	cursor: pointer;
 }
@@ -53,7 +56,7 @@ input {
 
 #header {
 	margin: auto;
-	background-color: #9a6b2e;
+	background: linear-gradient(90deg, #9a6a2e, #9a6b2e 35%);
 	padding: 10px 20px 10px 20px;
 	/*color: #C09256;*/
 	color: #E6BE8A;
@@ -71,7 +74,7 @@ input {
 }
 
 .inputFail {
-    border: 1px solid salmon;
+    border: 2px solid red;
 }
 
 .section {
